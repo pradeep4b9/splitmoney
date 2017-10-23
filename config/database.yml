@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: friendssplitmoney_development
+  pool: 5
+  username: friendssplitmoney
+  password: srideepu1
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: friendssplitmoney_test
+  pool: 5
+  username: friendssplitmoney
+  password: srideepu1
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: friendssplitmoney_production
+  pool: 5
+  username: friendssplitmoney
+  password: srideepu1
