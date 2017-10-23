@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 gem 'rails', '3.2.13'
 
 group :assets do
@@ -7,7 +7,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'puma'
 gem 'jquery-rails'
 gem 'better_errors'
 gem 'binding_of_caller'
